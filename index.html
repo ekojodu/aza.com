@@ -342,18 +342,18 @@
 
 		<!-- header -->
 		<header id="header-fix" class="header">
-			<div class="top-bar py-2 d-none d-lg-inline-block w-100">
+			<!-- <div class="top-bar py-2 d-none d-lg-inline-block w-100">
 				<div class="container">
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-6 text-lg-left text-center">
 							<ul class="list-inline mb-0">
-								<!-- <li class="list-inline-item pr-3">
+								 <li class="list-inline-item pr-3">
 									<a href="#" class="text-white"
 										><i class="icofont icofont-ui-message pr-2"></i>
 										test@yourdomain.com
 									</a>
 								</li> -->
-								<li class="list-inline-item">
+			<!-- <li class="list-inline-item">
 									<a href="#" class="text-white"
 										><i class="icofont icofont-phone pr-2"></i> Phone : +0(123)
 										456-78-90</a
@@ -379,7 +379,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="sticky-navbar">
 				<div class="container">
 					<nav
@@ -387,7 +387,7 @@
 					>
 						<a class="navbar-brand" href="index.html"
 							><img
-								style="width: 30px; height: 30px"
+								style="width: auto; height: 30px"
 								src="dist/images/site-logo.png"
 								alt=""
 						/></a>
@@ -455,6 +455,12 @@
 								</li> -->
 								<li class="nav-item">
 									<a class="nav-link" href="contact-us.html">Contact Us</a>
+								</li>
+								<li class="nav-item">
+									<!-- <i class="icofont icofont-ui-message pr-2"></i> -->
+									<a href="#modal" class="nav-link login_form">
+										Login/Signup
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -785,14 +791,10 @@
 		<!-- End Price Graff  -->
 
 		<!-- Calculator  -->
-		<section class="calculator">
+		<section class="calculator bg-grey">
 			<div class="background-image-maker"></div>
 			<div class="holder-image">
-				<img
-					src="dist/images/calculater-bg.jpg"
-					alt=""
-					class="img-fluid d-none"
-				/>
+				<!-- <img src="dist/images/calculater-bg.jpg" alt="" class="img-fluid d-none" /> -->
 			</div>
 			<div class="container">
 				<div class="row justify-content-center">
@@ -883,6 +885,7 @@
 				</div>
 			</div>
 		</section>
+
 		<!-- End Calculator  -->
 
 		<!-- Features  -->
@@ -907,9 +910,9 @@
 						data-delay="0.4s"
 					>
 						<div class="feature">
-							<div class="feature-icon bg-primary rounded-circle m-auto">
+							<div class="feature-icon bg-grey rounded-circle m-auto">
 								<i
-									class="icofont icofont-download-alt h1 text-white rounded-circle"
+									class="icofont bg-grey icofont-download-alt h1 text-white rounded-circle"
 								></i>
 							</div>
 							<div class="feature-content">
@@ -933,9 +936,9 @@
 						data-delay="0.6s"
 					>
 						<div class="feature">
-							<div class="feature-icon bg-primary rounded-circle m-auto">
+							<div class="feature-icon bg-grey rounded-circle m-auto">
 								<i
-									class="icofont icofont-wallet h1 text-white rounded-circle"
+									class="icofont bg-grey icofont-wallet h1 text-white rounded-circle"
 								></i>
 							</div>
 							<div class="feature-content">
@@ -955,9 +958,9 @@
 						data-delay="0.8s"
 					>
 						<div class="feature">
-							<div class="feature-icon bg-primary rounded-circle m-auto">
+							<div class="feature-icon bg-grey rounded-circle m-auto">
 								<i
-									class="icofont icofont-cart h1 text-white rounded-circle"
+									class="icofont icofont-cart bg-grey h1 text-white rounded-circle"
 								></i>
 							</div>
 							<div class="feature-content">
@@ -1001,7 +1004,7 @@
 						data-duration="1.0s"
 						data-delay="0.6s"
 					>
-						<a href="javascript:;" class="btn btn-primary btn-lg"
+						<a href="javascript:;" class="btn btn-lg bg-grey"
 							>CLICK FOR CONSULTANT</a
 						>
 					</div>
@@ -1923,7 +1926,7 @@
 		<!-- End Blog  -->
 
 		<!-- Newslatter  -->
-		<section class="bg-primary py-5">
+		<section class="bg-grey py-5" id="newsletter">
 			<div class="container">
 				<div class="row">
 					<div
@@ -1946,48 +1949,11 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div
-						class="col-12 col-lg-4 ml-auto wow fadeIn align-self-center"
-						data-animate="fadeIn"
-						data-duration="1.0s"
-						data-delay="0.6s"
-					>
-						<ul class="list-inline mb-0 text-lg-right text-center">
-							<li class="list-inline-item">
-								<a href="javascript:;"
-									><img
-										src="dist/images/play-store.png"
-										alt=""
-										title="Play Store"
-										class="img-fluid"
-										width="80"
-								/></a>
-							</li>
-							<li class="list-inline-item">
-								<a href="javascript:;"
-									><img
-										src="dist/images/iphone.png"
-										alt=""
-										title="Apple"
-										class="img-fluid"
-										width="80"
-								/></a>
-							</li>
-							<li class="list-inline-item">
-								<a href="javascript:;"
-									><img
-										src="dist/images/windows.png"
-										alt=""
-										title="Windows"
-										class="img-fluid"
-										width="80"
-								/></a>
-							</li>
-						</ul>
-					</div> -->
+					<!-- Remaining content omitted for brevity -->
 				</div>
 			</div>
 		</section>
+
 		<!-- End Newslatter  -->
 
 		<!-- Footer  -->
