@@ -817,6 +817,14 @@ section.team-sec {
 	height: 100%;
 }
 
+.sticky-navbar .navbar-nav .nav-link {
+	color: #ffffff !important; /* White text color for links */
+}
+
+.sticky-navbar .navbar-nav .nav-link:hover {
+	color: #cccccc !important; /* Light gray color on hover (optional) */
+}
+
 /*======================== Testimonial Css ===============================*/
 .testimonial .quote img {
 	position: relative;
